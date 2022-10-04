@@ -31,14 +31,11 @@ console.log(supplyChanges);
 //    - if the value is negative, format the log as 'Removed x parts.' 
 
 console.log('6. Showing supplyChanges...');
-const positiveArr = [];
-for(let x = 0; x < supplyChanges.length; x++){
-    if (supplyChanges[x] > 0){
-        positiveArr.push(supplyChanges[x]);
-    }
+
+for (let x = 0; x < supplyChanges.length; x++){
+    if 
 }
 
-console.log('added ' + '' + positiveArr + '' + ' parts.');
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
@@ -49,6 +46,12 @@ console.log('7. Showing supplyChanges with "for of" loop');
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
 
+let arr1 =[3, 5, -6, 0, 7, 25];
+let res = 0;
+for (i=0; i < arr1.length; i++) {
+     res += arr1[i]
+}
+console.log(res);
 // 9. We have a large stash of parts in our warehouse that we 
 //    need to box up and get ready for shipment. 
 //    There are 572 parts in total, and each box holds 7 parts.
