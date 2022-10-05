@@ -34,7 +34,7 @@ console.log('6. Showing supplyChanges...');
 
 for (let x = 0; x < supplyChanges.length; x++) {
 	let element = supplyChanges[x];
-	 element > 0 ? console.log('Added ' + element + ' parts.') : element === 0 ? console.log('No Change.') : element < 0 ? console.log('Removed ' + element + ' parts.'): null
+	 element > 0 ? console.log('Added ' + element + ' parts.') : element === 0 ? console.log('No Change.') : element < 0 ? console.log('Removed ' + ((-1) * element) + ' parts.'): null
 }
 
 
