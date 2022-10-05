@@ -43,10 +43,9 @@ console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
 console.log('7. Showing supplyChanges with "for of" loop');
 
-supplyChanges = [3, 5, -6, 0, 7, 25]
-for (let x of supplyChanges){
-    let element = supplyChanges[x];
-	 element > 0 ? console.log('Added ' + element + ' parts.') : element === 0 ? console.log('No Change.') : element < 0 ? console.log('Removed ' + element + ' parts.'): null
+
+for (change of supplyChanges){
+    console.log(change);
 }
 
 // 8. Write a loop to determine the total number of parts available by
