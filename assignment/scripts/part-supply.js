@@ -65,3 +65,14 @@ console.log(res);
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+
+let boxCount = 0;
+let totalParts = 572
+
+while (totalParts >= 7){
+
+boxCount = ++boxCount
+totalParts = totalParts - 7
+}
+console.log('The number of full boxes is ' + boxCount);
+console.log('The number of parts remaining is ' + totalParts);
